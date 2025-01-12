@@ -1,10 +1,17 @@
 import "./Nav.css";
 import logo from "../../images/logo.svg";
 import NavLinks from "./NavLinks";
+import MobileNav from "./MobileNav";
+import { useState } from "react";
 function Nav() {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
   return (
     <header className="container">
-      <div className="header">
+      <div className={`${toggleMenu ? "nav-open" : ""} header`}>
         <a href="#" className="logo">
           <img className="logo" alt="logo" src={logo} />
         </a>
@@ -25,6 +32,7 @@ function Nav() {
             </div>
           </ul>
         </nav>
+        <MobileNav handleToggle={handleToggle} />
       </div>
     </header>
   );
