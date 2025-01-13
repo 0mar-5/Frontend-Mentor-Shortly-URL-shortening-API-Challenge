@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Navigation/Nav";
 import ShortenURL from "./components/ShortenURL/ShortenURL";
+import Statistics from "./components/statistics/Statistics";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Hero />
         <ShortenURL />
+        <Statistics />
       </main>
     </>
   );

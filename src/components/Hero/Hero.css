@@ -44,22 +44,25 @@
 
 /* Large devices (desktops, less than 1235px) */
 @media (max-width: 1235px) {
-  html {
-    font-size: 13px;
+  .main-heading {
+    font-size: 3.3rem;
   }
 }
 
-/* Medium devices (tablets, less than 1000px) */
-@media (max-width: 1000px) {
+/* Medium devices (tablets, less than 1042px) */
+@media (max-width: 1042px) {
   .main-heading {
-    font-size: 3.3rem;
+    font-size: 2.6rem;
+  }
+  .hero-text p {
+    font-size: 13px;
   }
 }
 
 /* Small devices (landscape phones, less than 835px) */
 @media (max-width: 835px) {
   .main-heading {
-    font-size: 2.8rem;
+    font-size: 2.1rem;
   }
   .hero-text p {
     font-size: 12px;

@@ -30,7 +30,7 @@
 /* Large devices (desktops, less than 1235px) */
 @media (max-width: 1235px) {
   .short-url {
-    margin-left: 40%;
+    margin-left: 35%;
   }
 }
 /* Medium devices (tablets, less than 1090px) */
@@ -40,14 +40,14 @@
     justify-content: center;
   }
   .short-url {
-    margin-left: 33%;
+    margin-left: 20%;
   }
 }
 
 /* Small devices (landscape phones, less than 835px) */
 @media (max-width: 835px) {
   .short-url {
-    margin-left: 23%;
+    margin-left: 10%;
   }
 }
 
