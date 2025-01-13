@@ -1,0 +1,48 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  background-image: url("../../images/bg-boost-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-color: var(--Primary-color-darkViolet);
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.btn-cta:link,
+.btn-cta:visited {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  background-color: var(--Primary-color-cyan);
+  padding: 1rem 2.2rem;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: hsl(180, 84%, 52%);
+}
+
+@media (max-width: 600px) {
+  .cta {
+    padding: 2rem 0.5rem;
+  }
+  .cta h3 {
+    font-size: 28px;
+  }
+  .btn-cta:link,
+  .btn-cta:visited {
+    font-size: 15px;
+    padding: 1rem 4rem;
+  }
+}

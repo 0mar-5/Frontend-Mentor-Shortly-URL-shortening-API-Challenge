@@ -1,3 +1,4 @@
+import Cta from "./components/Cta/Cta";
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Navigation/Nav";
 import ShortenURL from "./components/ShortenURL/ShortenURL";
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <ShortenURL />
         <Statistics />
+        <Cta />
       </main>
     </>
   );
