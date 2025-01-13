@@ -42,7 +42,7 @@
   max-width: 120%;
 }
 
-/* Large devices (desktops, less than 1200px) */
+/* Large devices (desktops, less than 1235px) */
 @media (max-width: 1235px) {
   html {
     font-size: 13px;
