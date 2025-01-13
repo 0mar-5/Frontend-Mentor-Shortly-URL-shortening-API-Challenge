@@ -1,0 +1,21 @@
+.footer-text {
+  line-height: 2;
+}
+
+.footer-text h4 {
+  margin-bottom: 0.9rem;
+}
+
+.footer-text a:link,
+.footer-text a:visited {
+  color: var(--text-color-GrayishViolet);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  list-style: none;
+  text-decoration: none;
+}
+.footer-text a:hover,
+.footer-text a:active {
+  color: var(--Primary-color-cyan);
+}

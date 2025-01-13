@@ -8,7 +8,7 @@ function ShortenURL() {
     setShowResult(!showResult);
   };
   return (
-    <section className="shorten-container">
+    <section className="shorten-container" id="shorten-link">
       <div className={`${showResult && "container-move"} container`}>
         <form className="shorten" onSubmit={handleSubmit}>
           <input

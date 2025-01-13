@@ -1,4 +1,5 @@
 import Cta from "./components/Cta/Cta";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Navigation/Nav";
 import ShortenURL from "./components/ShortenURL/ShortenURL";
@@ -14,6 +15,7 @@ function App() {
         <Statistics />
         <Cta />
       </main>
+      <Footer />
     </>
   );
 }
