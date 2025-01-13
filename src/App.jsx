@@ -1,10 +1,14 @@
+import Hero from "./components/Hero/Hero";
 import Nav from "./components/Navigation/Nav";
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-    </div>
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }
 
