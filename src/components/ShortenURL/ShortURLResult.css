@@ -11,6 +11,7 @@
 }
 .short-url {
   margin-left: 45%;
+  cursor: pointer;
   color: var(--Primary-color-cyan);
 }
 .btn-copy {

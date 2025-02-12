@@ -1,11 +1,19 @@
+import { useState } from "react";
 import "./ShortURLResult.css";
 
-function ShortURLResult() {
+function ShortURLResult({ url, shortUrl }) {
+  const [copyText, setCopyText] = useState("Copy");
+  const handleCopy = function () {
+    navigator.clipboard.writeText(shortUrl);
+    setCopyText("copied!");
+  };
   return (
     <div className="shorter-url-container">
-      <div className="url">https://www.testlink.com</div>
-      <div className="short-url">https:/short/k4fasaxd</div>
-      <button className="btn-copy">Copy</button>
+      <div className="url">{url}</div>
+      <div className="short-url">{shortUrl}</div>
+      <button className="btn-copy" onClick={handleCopy}>
+        {copyText}
+      </button>
     </div>
   );
 }
